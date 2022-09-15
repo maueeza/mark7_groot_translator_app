@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&display=swap');
+
+body{
+    font-family: 'Blaka Ink', cursive;
+    justify-content: center;
+    margin: 0px;
+}
+
+:root{
+    --primary-color : #798465;
+    --width-break : 600px;
+
+}
+nav{
+    display: block;
+    text-align: center;
+}
+
+#groot-translator{
+    font-size: 4rem;
+    background-color: var(--primary-color);
+    display: block;
+    color: red;
+}
+
+main{
+    margin: auto;
+    max-width: var(--width-break);
+    border: 1px solid black;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+#input-txt{
+    resize: none;
+    width: 100%;
+    margin-top: 1rem;
+    max-height: 20vh;
+    min-height: 10vh;
+}
+
+#translate-btn{
+    
+    font-size: large;
+    border: none;
+    background-color: var(--primary-color);
+    width: 5cm;
+    border-radius: 0.5rem;
+    height: 3rem;
+    margin-top: 0.5cm;
+    text-align: center;
+    justify-content: center;
+
+}
