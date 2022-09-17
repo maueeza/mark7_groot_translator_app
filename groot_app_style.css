@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap');
 
-body{
+html, body{
     font-family: 'Blaka Ink', cursive;
     justify-content: center;
     margin: 0px;
+    height: 100%;
 }
 
 :root{
@@ -22,17 +24,28 @@ nav{
     font-size: 4rem;
     background-color: var(--primary-color);
     display: block;
-    color: green;
+    color: black;
      font-family: 'Rubik Moonrocks', cursive;
+}
+
+#bg-container{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("/groot_wallpaper.png");
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 main{
     margin: auto;
     max-width: var(--width-break);
     padding: 2rem;
-    margin-top: 1rem;
-    background-image: url("/groot_wallpaper_600X330.png");
 }
+
+
 
 #input-txt{
     resize: none;
@@ -56,6 +69,7 @@ main{
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    box-shadow: 0 6px 6px black;
     
 }
 
@@ -66,6 +80,12 @@ main{
 #output-title{
     font-size: 2em;
 }
+
+/*#bg-container{
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+}*/
 
 #output-txt{
     display: block;
@@ -81,3 +101,23 @@ main{
     background-color: white;
 }
 
+.footer>h2{
+    font-weight: bolder;
+}
+
+#footer-div{
+    display: block;
+    
+}
+
+footer{
+    display: block;
+    margin: auto;
+    /*margin-top: 1rem;*/
+    background-color: var(--primary-color);
+    width: 100%;
+   text-align: center;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
